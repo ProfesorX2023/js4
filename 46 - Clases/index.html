@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases</title>
+</head>
+<body>
+    <script>
+
+
+        //Constructor de clase
+        class Papel{
+            constructor(alto,ancho){
+                this.alto = alto;
+                this.ancho = ancho;
+            }
+        }
+        //Clase Anonima
+        let PapelA = class{
+            constructor(alto,ancho){
+                this.alto = alto;
+                this.ancho = ancho;
+            }
+        }
+        //Clase Nombrada
+        let PapelB = class PapelX{
+            constructor(alto,ancho){
+                this.alto = alto;
+                this.ancho = ancho;
+            }
+        }
+
+        //Instancia u objeto
+        let papelZ =  new Papel(5,3);
+
+
+    </script>
+</body>
+</html>
